@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void pattern7(int n)
+void pattern8(int n)
 {
     for (int i = n; i > 0; i--)
     {
@@ -24,6 +24,6 @@ int main()
     int x;
     cout << "Enter the number of rows : ";
     cin >> x;
-    pattern7(x);
+    pattern8(x);
     return 0;
 }
